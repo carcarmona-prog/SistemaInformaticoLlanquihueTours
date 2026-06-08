@@ -6,7 +6,7 @@ import com.LlanquihueTour.model.identidad.Rut;
   /**
    * Creamos la clase "Empleado".
    */
-    public class Empleado {
+      public class Empleado {
       private String nombre;
       private String cargo;
       private Rut rut;

@@ -1,12 +1,13 @@
 package com.LlanquihueTour.model.clientesRegistrados;
 
+import com.LlanquihueTour.model.empleadosRegistrados.Empleado;
 import com.LlanquihueTour.model.identidad.Rut;
 
   /**
    * En esta clase vamos a crear los atributos de los clientes
   */
 
-public class Cliente {
+public class Cliente extends Empleado {
     private String nombre;
     private Rut rut;
     private String email;
@@ -28,41 +29,6 @@ public class Cliente {
         this.telefono = telefono;
     }
 
-      /**
-       * Generamos los getters and setters.
-       */
-
-      public String getNombre() {
-          return nombre;
-      }
-
-      public void setNombre(String nombre) {
-          this.nombre = nombre;
-      }
-
-      public Rut getRut() {
-          return rut;
-      }
-
-      public void setRut(Rut rut) {
-          this.rut = rut;
-      }
-
-      public String getEmail() {
-          return email;
-      }
-
-      public void setEmail(String email) {
-          this.email = email;
-      }
-
-      public String getTelefono() {
-          return telefono;
-      }
-
-      public void setTelefono(String telefono) {
-          this.telefono = telefono;
-      }
 
       /**
        * Generamos un toString para su correcta lectura de datos en la línea de comando.
