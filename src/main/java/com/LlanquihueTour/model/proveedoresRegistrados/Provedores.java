@@ -1,4 +1,4 @@
-package com.LlanquihueTour.proveedoresRegistrados;
+package com.LlanquihueTour.model.proveedoresRegistrados;
 
 import com.LlanquihueTour.model.direccion.Direccion;
 import com.LlanquihueTour.model.empleadosRegistrados.Empleado;

@@ -1,6 +1,6 @@
 package com.LlanquihueTour.model.identidad;
 
-import com.LlanquihueTour.exceptions.RutInvalidoException;
+import com.LlanquihueTour.utils.exceptions.RutInvalidoException;
 
 public class Rut {
     /**
