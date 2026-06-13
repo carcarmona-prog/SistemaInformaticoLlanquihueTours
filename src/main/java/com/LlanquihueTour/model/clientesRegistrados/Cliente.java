@@ -8,10 +8,10 @@ import com.LlanquihueTour.model.identidad.Rut;
   */
 
 public class Cliente extends Empleado {
-    private String nombre;
-    private Rut rut;
-    private String email;
-    private String telefono;
+    private final String nombre;
+    private final Rut rut;
+    private final String email;
+    private final String telefono;
 
 
 
